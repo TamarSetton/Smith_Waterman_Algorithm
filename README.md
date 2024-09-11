@@ -1,2 +1,3 @@
 # Smith_Waterman_Algorithm
-A creation of the Smith Waterman method for genetic sequence alignment. 
+This is my creation of the Smith Waterman Algorithm. 
+The Smith-Waterman algorithm is a dynamic programming method used for local sequence alignment, particularly in bioinformatics for comparing genetic sequences (DNA, RNA, or protein). It identifies similar regions between two sequences by finding the highest scoring local alignment, allowing for insertions, deletions, and substitutions with penalties. Unlike global alignment methods (like Needleman-Wunsch), Smith-Waterman focuses on aligning the most similar subsections rather than the entire sequence, making it effective for detecting conserved patterns within larger genomic sequences. The algorithm computes a score matrix and traces back from the highest score to produce the optimal local alignment.
